@@ -1,2 +1,0 @@
-# talentvision
-# talentvision

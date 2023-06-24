@@ -1,602 +1,678 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="initial-scale=1, width=device-width" />
-  <link rel="stylesheet" href="assets/global.css" />
-  <link rel="stylesheet" href="assets/index.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" />
-    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'><link rel="stylesheet" href="style2.css">
-    
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Talent Vision</title>
 
-<body>
-  <div class="homepage-new">
-    <div class="homepage-new-child"></div>
-    <div class="homepage-new-item"></div>
-    <div class="homepage-new-inner"></div>
-    <div class="ellipse-div"></div>
-    <div class="homepage-new-child1"></div>
-    <div class="homepage-new-child2"></div>
-    <div class="homepage-new-child3"></div>
-    <div class="rectangle-div"></div>
-    <div class="homepage-new-child4"></div>
-    <div class="homepage-new-child5"></div>
-    <div class="homepage-new-child6"></div>
-    <b class="full-stack-designer-project">Full-Stack Designer (Project Based)</b>
-    <div class="mindfulnessco">Mindfulness.co</div>
-    <div class="h-ago">9h ago</div>
-    <div class="david-is-a">
-      David is a full-stack designer with 3+ years of experience.
-    </div>
-    <div class="find-talent">Find Talent</div>
-    <div class="rectangle-parent">
-      <div class="group-child"></div>
-      <div class="start-training">Start Training</div>
-    </div>
-    <div class="rectangle-group">
-      <div class="group-item"></div>
-      <div class="apply-now">Apply Now</div>
-    </div>
-    <div class="homepage-new-child7"></div>
-    <div class="homepage-new-child8"></div>
-    <div class="ui-designer">UI Designer</div>
-    <div class="front-end-developer">Front-End Developer</div>
-    <div class="invoice-has-been-container">
-      <p class="invoice-has-been">Invoice has been sent</p>
-      <p class="invoice-has-been">to your inbox</p>
-    </div>
-    <div class="training-completed">Training Completed!</div>
-    <div class="david-guttman">David Guttman</div>
-    <div class="homepage-new-child9"></div>
-    <div class="homepage-new-child10"></div>
-    <div class="homepage-new-child11"></div>
-    <div class="homepage-new-child12"></div>
-    <img class="group-icon" alt="" src="./images/group.svg" />
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
-    <div class="homepage-new-child13"></div>
-    <b class="start-my-new">Start my new career Today!</b>
-    <div class="rectangle-container">
-      <div class="group-item"></div>
-      <div class="apply-now">Apply Now</div>
-    </div>
-    <img class="homepage-new-child14" alt="" src="./images/group-79.svg" />
+        <!-- Owl carousel -->
+        <!-- Basic stylesheet -->
+        <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
+        <!-- Default Theme -->
+        <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
+        <!-- You can use latest version of jQuery  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <!-- Include js plugin -->
+        <script src="assets/owl-carousel/owl.carousel.js"></script>
 
-    <div class="homepage-new-child15"></div>
-    <img class="rectangle-icon" alt="" src="./images/rectangle-10.svg" />
+        <!-- Custom Styling -->
+        <link rel="stylesheet" href="assets/css/style.css">
 
-    <img class="homepage-new-child16" alt="" src="./images/rectangle-11.svg" />
+        <!-- Scripts -->
+        <script src="assets/js/script.js" defer></script>
 
-    <img class="homepage-new-child17" alt="" src="./images/rectangle-12.svg" />
+    </head>
 
-    <img class="homepage-new-child18" alt="" src="./images/rectangle-13.svg" />
+    <body>
 
-    <img class="mask-group-1" alt="" src="./images/mask-group-1@2x.png" />
+        <head>
+            <nav class="navbar navbar-expand-lg mt-2">
+                <div class="container">
+                    <a class="navbar-brand text-uppercase d-flex align-items-center gap-2 fw-medium" href="#">
+                        <img src="./assets/images/logo.png" alt="Logo" width="40" height="40"
+                            class="d-inline-block align-text-top">
+                        Talent Vision
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center gap-0 gap-md-2">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Resources Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Events</a>
+                            </li>
+                            <button type="button" class="btn cta-button">Signup</button>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </head>
 
-    <img class="mask-group-2" alt="" src="./images/mask-group-2@2x.png" />
+        <main class="overflow-x-hidden">
+            <section class="hero position-relative">
+                <div class="container mt-5">
+                    <!-- for desktop -->
+                    <div class="main-heading d-none d-md-block">
+                        <div class="line">
+                            <img class="d-none d-lg-block me-3" src="assets/images/star.svg" class="me-4" alt="">
+                            <h1>Hire the best </h1>
+                            <div class="avatar girl d-none d-md-block mx-4">
+                                <div class="bg"> <img class="img-fluid" src="assets/images/hero/girl.png"
+                                        alt="girl smiling">
+                                </div>
+                            </div>
+                            <h1>&nbsp;people</h1>
+                        </div>
+                        <div class="line">
+                            <div class="hyphen d-none d-md-block"></div>
+                            <h1>&nbsp;for any job</h1>
+                            <div class="avatar boy mx-4">
+                                <div class="bg"> <img class="img-fluid" src="assets/images/hero/boy.png"
+                                        alt="girl smiling">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- for mobile -->
+                    <div class="mobile-heading text-center d-md-none">
+                        <div class="avatar boy mx-auto">
+                            <div class="bg"> <img src="assets/images/hero/boy.png" alt="boy sideposing">
+                            </div>
+                        </div>
+                        <h1>Hire the best people for any job</h1>
+                    </div>
 
-    <img class="mask-group-3" alt="" src="./images/mask-group-3@2x.png" />
+                    <div class="row mt-5 flex-column flex-lg-row ">
+                        <div class="gradient-elipse yellow"></div>
+                        <div class="col">
+                            <div class="row g-3 g-md-4">
+                                <div class="col-7 d-flex">
+                                    <div class="card-variant-1 with-profile text-center mt-5">
+                                        <div class="avatar mx-auto">
+                                            <div class="bg"> <img class="img-fluid" src="assets/images/hero/boy-2.png"
+                                                    alt="african boy">
+                                            </div>
+                                        </div>
+                                        <h5>David Guttman</h5>
+                                        <div class="my-2">
+                                            <p class="capsule color-1">UI Designer</p>
+                                            <p class="capsule color-2">Frontend Developer</p>
+                                        </div>
+                                        <p>David is a full-stack designer with 3+ years of experience.</p>
+                                        <div class="btn btn-main mx-auto">Find Talent</div>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <div class="card-variant-1 mb-3 mb-md-4 text-center">
+                                        <h5>Start my new career today!</h5>
+                                        <p>Click the button to join right now</p>
+                                        <div class="btn btn-main mx-auto">Apply Now</div>
+                                    </div>
+                                    <div class="card-variant-1 with-avatar text-center">
+                                        <img class="my-2" src="assets/images/hero/avatar-1.png" alt="avatar">
+                                        <h5>Training Completed!</h5>
+                                        <p>Invoice has been sent to your inbox</p>
+                                        <div class="btn btn-main mx-auto">Start Training</div>
 
-    <div class="click-on-the">Click on the button to join right now</div>
-    <div class="hire-the-best">Hire the best</div>
-    <div class="people">people</div>
-    <div class="for-any-job">for any job</div>
-    <div class="homepage-new-child19"></div>
-    <div class="a-staffing-and">
-      A staffing and cosulting firm that focuses on Diversity, Equity, and
-      Inclusion in the workforce. We help companies power their recruiting
-      engine to attract, hire and retain talent. We also provide DE&I
-      training, long term strategies, and action plans to support a more
-      diverse workforce at large.
-    </div>
-    <div class="our-resources">Our resources</div>
-    <div class="homepage-new-child20"></div>
-    <div class="explore-talent">Explore Talent</div>
-    <img class="image-15-icon" alt="" src="./images/image-15@2x.png" />
+                                        <img src="assets/images/hero/check.png" class="check" alt="green check mark">
+                                    </div>
+                                </div>
+                                <div class="col-10 ms-auto">
+                                    <div class="card-variant-1">
+                                        <div class="head d-flex align-items-center justify-content-between">
+                                            <div class="logo d-flex align-items-center gap-1">
+                                                <img src="assets/images/hero/logo-2.png" alt="logo">
+                                                <h5>Mindfulness.co</h5>
+                                            </div>
+                                            <h6>9h ago..</h6>
+                                        </div>
+                                        <h5 class="mt-1">Full-stack Designer (Project Based)</h5>
+                                        <div class="btn btn-main">Apply Now</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gradient-elipse pink"></div>
+                        <div class="col">
+                            <div class="description mt-5 mt-lg-0">
+                                <p>A staffing and cosulting firm that focuses on Diversity, Equity, and Inclusion in the
+                                    workforce. We help companies power their recruiting engine to attract, hire and
+                                    retain
+                                    talent. We also provide DE&I training, long term strategies, and action plans to
+                                    support
+                                    a more diverse workforce at large.</p>
+                                <div class="btn btn-main">Explore Talent</div>
+                            </div>
+                            <div class="resources mt-5">
+                                <h5 class="mb-3">Our resources</h5>
+                                <div class="row g-3">
+                                    <div class="col col-12 col-md-6"><img class="img-fluid"
+                                            src="assets/images/hero/resource-1.png" alt="resource">
+                                    </div>
+                                    <div class="col col-12 col-md-6"><img class="img-fluid"
+                                            src="assets/images/hero/resource-2.png" alt="resource">
+                                    </div>
+                                    <div class="col col-12 col-md-6"><img class="img-fluid"
+                                            src="assets/images/hero/resource-3.png" alt="resource">
+                                    </div>
+                                    <div class="col col-12 col-md-6"><img class="img-fluid"
+                                            src="assets/images/hero/resource-4.png" alt="resource">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gradient-elipse blue"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="banner-1 py-5 text-center text-md-start">
+                <div class="container">
+                    <div class="row align-items-center flex-column flex-md-row">
+                        <div class="col-12 col-md-5">
+                            <div class="item d-flex flex-column flex-md-row gap-5 align-items-center">
+                                <img src="assets/images/banners/graphics-1.png" alt="design pattern">
+                                <p>We provide opportunities and resources for candidates
+                                    who
+                                    are
+                                    underrepresented in the
+                                    workplace so they can have equitable career options.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="divider mx-auto"></div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="d-flex">
+                                <div class="item">
+                                    <h3>24+</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, pariatur!</p>
+                                </div>
+                                <div class="item">
+                                    <h3>209</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, pariatur!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about-1 my-5">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="item position-relative text-center">
+                                <div class="image my-3">
+                                    <img src="assets/images/about-1/model-1.png" alt="man standing crossing his arms">
+                                    <div class="bg"></div>
+                                </div>
+                                <h4>Talent</h4>
+                                <p class="mx-auto fw-light">I am looking for talent opportunities with schools and
+                                    learning pods.
+                                </p>
+                                <button class="btn btn-second">Sign up</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item position-relative text-center">
+                                <div class="image my-3">
+                                    <img src="assets/images/about-1/model-2.png"
+                                        alt="girl in suit with pen in her hands">
+                                    <div class="bg">
+                                    </div>
+                                </div>
+                                <h4>Manager</h4>
+                                <p class="mx-auto fw-light">I would like to hire qualified candidates and give them
+                                    opportunities.
+                                </p>
+                                <button class="btn btn-second">Hire Teachers</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="item position-relative text-center">
+                                <div class="image my-3">
+                                    <img src="assets/images/about-1/model-3.png" alt="a small family">
+                                    <div class="bg">
+                                    </div>
+                                </div>
+                                <h4>Community <br> Engagement</h4>
+                                <p class="mx-auto fw-light">My family is interested in starting and joining a learning
+                                    pod.
+                                </p>
+                                <button class="btn btn-second">Explore Pods</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="our-mission py-5 position-relative">
+                <div class="container my-5">
+                    <div class="head text-center mx-auto">
+                        <h6 class="text-uppercase">Our Team</h6>
+                        <h2>Our Mission</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa asperiores modi iusto
+                            a, ab quis distinctio mollitia rem omnis?</p>
+                        <button class="btn btn-main mx-auto">See Jobs</button>
+                    </div>
+                    <div class="gradient-elipse blue"></div>
+                    <div class="video-player mt-4">
+                        <div class="frame-1">
+                            <div class="frame-2">
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/oqnQT2muEKs"
+                                    title="Our Mission | Simpplr" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="vector one" src="assets/images/our-mission/shape-1.png" alt="vector shape ">
+                    <img class="vector two" src="assets/images/our-mission/shape-2.png" alt="vector shape">
+                    <img class="vector three" src="assets/images/our-mission/shape-3.png" alt="vector shape">
+                    <img class="vector four" src="assets/images/our-mission/shape-4.png" alt="elipse">
+                </div>
+            </section>
+            <section class="our-vision py-5 position-relative">
+                <div class="container my-5">
+                    <img class="shape-1" src="assets/images/star.svg" alt="vector shape">
+                    <div
+                        class="head d-flex flex-column flex-lg-row align-items-start justify-content-between gap-3 mb-5 pb-5 w-full">
+                        <div class="d-flex align-items-center gap-3">
+                            <h2>Our Vision</h2>
+                            <div class="hyphen"></div>
+                        </div>
+                        <div class="details">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cumque magnam laborum
+                                quaerat aperiam deserunt tempora iste in quia. Ea?</p>
+                            <button class="btn btn-main small">See Jobs</button>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <div class="row my-5 pb-5 gap-5  gap-5 flex-column flex-lg-row">
+                            <div class="col">
+                                <div class="image position-relative text-end">
+                                    <img class="img-fluid" src="assets/images/our-vision/graphics-1.png" alt="graph">
+                                    <div class="gradient-elipse yellow"></div>
+                                    <div class="gradient-elipse pink"></div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <h2>01</h2>
+                                <h4>Quality</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos
+                                    distinctio quaerat asperiores possimus corrupti omnis illo ab facilis inventore et
+                                    id
+                                    provident incidunt temporibus, alias necessitatibus dolores? Tenetur, tempore!</p>
+                            </div>
+                        </div>
+                        <div class="row mt-5 pt-5 gap-5 flex-column-reverse flex-lg-row">
+                            <div class="col">
+                                <h2>02</h2>
+                                <h4>Helpful</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos
+                                    distinctio quaerat asperiores possimus corrupti omnis illo ab facilis inventore et
+                                    id
+                                    provident incidunt temporibus, alias necessitatibus dolores? Tenetur, tempore!</p>
+                            </div>
+                            <div class="col">
+                                <div class="image position-relative text-end">
+                                    <img class="img-fluid" src="assets/images/our-vision/graphics-2.png" alt="graph">
+                                    <div class="gradient-elipse yellow second"></div>
+                                    <div class="gradient-elipse blue"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="banner-1 second py-5">
+                <div class="container">
+                    <div class="row align-items-center flex-column flex-md-row">
+                        <div class="col-12 col-md-5">
+                            <div class="item text-start text-md-end">
+                                <h2 class="mb-3">Let us help you start your carrer</h2>
+                                <button class="btn btn-main white ms-md-auto me-md-0 me-auto  mt-2">Contact
+                                    Us</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-2">
+                            <div class="divider mx-auto"></div>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div
+                                class="d-flex align-items-center gap-3 gap-md-0 gap-lg-5 flex-md-column-reverse flex-lg-row">
+                                <p class="text-end">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Id
+                                    delectus dolorem fugit
+                                    ab consectetur aspernatur facilis porro recusandae.</p>
+                                <img src="assets/images/banners/graphics-2.png" alt="graphics">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="our-team py-5 position-relative ">
+                <div class="container my-5">
+                    <div class="head text-center mx-auto">
+                        <h6 class="text-uppercase ">Our Team</h6>
+                        <h2 class="mx-auto">Meet Our Diverse First Team</h2>
+                    </div>
+                    <div class="row g-2 g-md-3 g-lg-5 mt-5 justify-content-center">
+                        <div class="col-6 col-sm-4 col-lg-3">
+                            <div class="team-card d-flex flex-column">
+                                <div class="profile-picture">
+                                    <img src="assets/images/our-team/person-1.png" alt="niko robin">
+                                </div>
+                                <div class="content text-center mt-3">
+                                    <h5>Sebastian Bennet</h5>
+                                    <p>Founder</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-3">
+                            <div class="team-card d-flex flex-column-reverse">
+                                <div class="profile-picture">
+                                    <img src="assets/images/our-team/person-2.png" alt="niko robin">
+                                </div>
+                                <div class="content text-center mt-3">
+                                    <h5>Graham Griffiths</h5>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-3">
+                            <div class="team-card d-flex flex-column">
+                                <div class="profile-picture">
+                                    <img src="assets/images/our-team/person-3.png" alt="niko robin">
+                                </div>
+                                <div class="content text-center mt-3">
+                                    <h5>Monica Bottger</h5>
+                                    <p>Designer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-3">
+                            <div class="team-card d-flex flex-column-reverse">
+                                <div class="profile-picture">
+                                    <img src="assets/images/our-team/person-4.png" alt="niko robin">
+                                </div>
+                                <div class="content text-center mt-3">
+                                    <h5>Monica Bottger</h5>
+                                    <p>Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <img class="image-16-icon" alt="" src="./images/image-16@2x.png" />
+                    <div class="gradient-elipse yellow"></div>
+                    <div class="gradient-elipse pink"></div>
+                </div>
+            </section>
+            <section class="testimonials my-5 py-5 text-center">
+                <div class="container">
+                    <h2>Our Testimonials</h2>
 
-    <img class="homepage-new-child21" alt="" src="./images/group-47@2x.png" />
+                    <div class="owl-carousel owl-theme mt-5 pt-5 position-relative">
+                        <div class="testimonial">
+                            <img class="mb-3" src="assets/images/testimonials/user-1.png" alt="">
+                            <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Praesentium, vitae. Neque
+                                porro veniam similique dolorum voluptas quod temporibus, quos culpa!</p>
+                            <h5 class="text-uppercase">Sophia Barton</h5>
+                            <h6>Google Inc</h6>
+                        </div>
+                        <div class="testimonial">
+                            <img class="mb-3" src="assets/images/testimonials/user-2.png" alt="">
+                            <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Praesentium, vitae. Neque
+                                porro veniam similique dolorum voluptas quod temporibus, quos culpa!</p>
+                            <h5 class="text-uppercase">Sophia Barton</h5>
+                            <h6>Google Inc</h6>
+                            <img class="bg" src="assets/images/testimonials/bg.png" alt="background">
+                            <img class="quote" src="assets/images/testimonials/quote.png" alt="icon">
+                        </div>
+                        <div class="col">
+                            <div class="testimonial">
+                                <img class="mb-3" src="assets/images/testimonials/user-3.png" alt="">
+                                <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Praesentium, vitae. Neque
+                                    porro veniam similique dolorum voluptas quod temporibus, quos culpa!</p>
+                                <h5 class="text-uppercase">Sophia Barton</h5>
+                                <h6>Google Inc</h6>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="testimonial">
+                                <img class="mb-3" src="assets/images/testimonials/user-3.png" alt="">
+                                <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Praesentium, vitae. Neque
+                                    porro veniam similique dolorum voluptas quod temporibus, quos culpa!</p>
+                                <h5 class="text-uppercase">Sophia Barton</h5>
+                                <h6>Google Inc</h6>
+                            </div>
+                        </div>
 
-    <img class="oo-1-icon" alt="" src="./images/oo-1@2x.png" />
-
-    <div class="homepage-new-child22"></div>
-    <div class="sign-up">sign-up</div>
-    <div class="home">Home</div>
-    <div class="about-us">About Us</div>
-    <div class="services">Services</div>
-    <div class="careers">Careers</div>
-    <div class="resources">Resources</div>
-    <div class="events">Events</div>
-    <img class="vector-icon" alt="" src="./images/vector.svg" />
-
-    <div class="diversefirst">Talent Vision</div>
-    <div class="homepage-new-child23"></div>
-    <div class="we-provide-opportunities">
-      We provide opportunities and resources for candidates who are
-      underrepresented in the workplace so they can have equitable career
-      options.
-    </div>
-    <div class="homepage-new-child24"></div>
-    <div class="lorem-ipsum-dolor">
-      Lorem ipsum dolor sit amet, consectetur adipiscing
-    </div>
-    <div class="lorem-ipsum-dolor1">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    </div>
-    <b class="b">24+</b>
-    <div class="homepage-new-child25"></div>
-    <div class="homepage-new-child26"></div>
-    <img class="polygon-icon" alt="" src="./images/polygon-3.svg" />
-    <img class="fullmoon" src="./images/Ellipse 64.png" alt="">
-
-    <div class="homepage-new-child27"></div>
-    <div class="homepage-new-child28"></div>
-
-    <b class="let-us-help">Let us help you start your career</b>
-    <b class="b1">209</b>
-    <img class="homepage-new-child31" alt="" src="./images/group-48@2x.svg" />
-
-    <div class="homepage-new-child32"></div>
-    <img class="homepage-new-child33" alt="" src="./images/group-95.svg" />
-
-    <div class="our-mission">Our Mission</div>
-    <div class="our-team">OUR TEAM</div>
-    <div class="lorem-ipsum-dolor2">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam
-    </div>
-    <div class="homepage-new-child34"></div>
-     <a class="see-jobs" href="">See Jobs</a>
-    <div class="homepage-new-child35"></div>
-    <div class="homepage-new-child36"></div>
-    <img class="ellipse-icon" alt="" src="./images/ellipse-67.svg" />
-
-    <div class="homepage-new-child37"></div>
-    <div class="homepage-new-child38"></div>
-    <div class="homepage-new-child39"></div>
-    <div class="homepage-new-child40"></div>
-    <div class="homepage-new-child41"></div>
-    <div class="homepage-new-child42"></div>
-    <div class="homepage-new-child43"></div>
-    <img class="homepage-new-child44" alt="" src="./images/group-66@2x.png" />
-
-    <div class="homepage-new-child45"></div>
-    <img class="homepage-new-child46" alt="" src="./images/polygon-2.svg" />
-
-    <div class="i-am-looking">
-      I am looking for talent opportunities with schools and learning pods.
-    </div>
-    <div class="my-family-is">
-      My family is interested in starting and joining a learning pod.
-    </div>
-    <div class="i-would-like">
-      I would like to hire qualified candidates and give them opportunities.
-    </div>
-    <div class="talent">Talent</div>
-    <div class="employer">Employer</div>
-    <div class="community-engagement">Community Engagement</div>
-    <div class="homepage-new-child47"></div>
-    <div class="sign-up1">Sign Up</div>
-    <div class="homepage-new-child48"></div>
-    <div class="hire-teachers">Hire Teachers</div>
-    <div class="homepage-new-child49"></div>
-    <div class="explore-pods">Explore Pods</div>
-    <img class="homepage-new-child50" alt="" src="./images/vector-7.svg" />
-
-    <div class="homepage-new-child51"></div>
-    <div class="homepage-new-child52"></div>
-    <div class="homepage-new-child53"></div>
-    <div class="see-jobs1">See Jobs</div>
-    <div class="lorem-ipsum-dolor3">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate v
-    </div>
-    <div class="quality">Quality</div>
-    <div class="div">01</div>
-    <div class="homepage-new-child54"></div>
-    <div class="homepage-new-child55"></div>
-    <div class="homepage-new-child56"></div>
-    <div class="homepage-new-child57"></div>
-    <div class="lorem-ipsum-dolor4">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate v
-    </div>
-    <div class="helpful">Helpful</div>
-    <div class="div1">02</div>
-    <div class="our-vision">Our Vision</div>
-    <div class="homepage-new-child58"></div>
-    <div class="lorem-ipsum-dolor5">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim
-    </div>
-    <div class="homepage-new-child59"></div>
-    <div class="homepage-new-child60"></div>
-    <div class="homepage-new-child61"></div>
-    <div class="homepage-new-child62"></div>
-    <img class="homepage-new-child63" alt="" src="./images/vector-8.svg" />
-
-    <img class="homepage-new-child64" alt="" src="./images/vector-9.svg" />
-
-    <img class="homepage-new-child65" alt="" src="./images/vector-10.svg" />
-
-    <div class="job-position-created">Job position created and published</div>
-    <div class="total-applicants">130 total applicant(s)</div>
-    <div class="hiring-days">Hiring days</div>
-    <img class="homepage-new-child66" alt="" src="./images/vector-11.svg" />
-
-    <div class="div2">25</div>
-    <div class="qualification-test">
-      <p class="invoice-has-been">Qualification</p>
-      <p class="invoice-has-been">Test</p>
-    </div>
-    <div class="applicants-invited-to">
-      18 applicant(s) invited to interview session
-    </div>
-    <img class="arrow-icon" alt="" src="./images/arrow-1.svg" />
-
-    <img class="homepage-new-child67" alt="" src="./images/arrow-2.svg" />
-
-    <img class="users-icon" alt="" src="./images/79users.svg" />
-
-    <img class="homepage-new-child68" alt="" src="./images/vector-12.svg" />
-
-    <img class="homepage-new-child69" alt="" src="./images/vector-13.svg" />
-
-    <div class="homepage-new-child70"></div>
-    <div class="screening">Screening</div>
-    <img class="homepage-new-child71" alt="" src="./images/group-80.svg" />
-
-    <img class="mask-group-6" alt="" src="./images/mask-group-6@2x.png" />
-
-    <img class="homepage-new-child72" alt="" src="./images/vector-14.svg" />
-
-    <img class="homepage-new-child73" alt="" src="./images/vector-15.svg" />
-
-    <img class="homepage-new-child74" alt="" src="./images/vector-16.svg" />
-
-    <div class="melissa-hart">Melissa Hart</div>
-    <div class="homepage-new-child75"></div>
-    <img class="homepage-new-child76" alt="" src="./images/arrow-3.svg" />
-
-    <img class="homepage-new-child77" alt="" src="./images/vector-17.svg" />
-
-    <div class="homepage-new-child78"></div>
-    <div class="assignment-to-do">1 assignment to do</div>
-    <div class="homepage-new-child79"></div>
-    <div class="screening1">Screening</div>
-    <div class="homepage-new-child80"></div>
-    <div class="interview-session">Interview Session</div>
-    <img class="group-icon1" alt="" src="./images/group1.svg" />
-    <img class="half-moon" src="./images/subtract.svg" alt="">
-
-    <div class="group-div">
-      <div class="group-child1"></div>
-      <div class="explain-your-workflow">
-        2. Explain your workflow in video format
-      </div>
-    </div>
-    <div class="homepage-new-child81"></div>
-    <div class="write-a-motivation">
-      3. Write a motivation letter about why you want to work with us and your
-      product knowledge
-    </div>
-    <div class="we-provide-opportunities1">
-      We provide opportunities and resources for candidates who are
-      underrepresented in the workplace so they can have equitable career
-      options.
-    </div>
-    <div class="homepage-new-child82"></div>
-    <a href=""><div class="homepage-new-child83">Contact Us</div></a>
-    
-    <div class="meet-our-diversefirst-team-container">
-      <p class="invoice-has-been">Meet our Talent</p>
-      <p class="invoice-has-been">Team</p>
-    </div>
-    <div class="our-team1">OUR TEAM</div>
-    <div class="latest-news">Latest News</div>
-    <div class="our-news">OUR NEWS</div>
-    <div class="homepage-new-child84"></div>
-    <div class="homepage-new-child85"></div>
-    <div class="homepage-new-child86"></div>
-    <div class="homepage-new-child87"></div>
-    <div class="homepage-new-child88"></div>
-    <div class="homepage-new-child89"></div>
-    <div class="sebastian-bennett">Sebastian Bennett</div>
-    <div class="founder">Founder</div>
-    <img class="homepage-new-child90" alt="" src="./images/group-77@2x.png" />
-
-    <img class="homepage-new-child91" alt="" src="./images/group-78@2x.png" />
-
-    <img class="homepage-new-child92" alt="" src="./images/group-791@2x.png" />
-
-    <div class="graham-griffiths">Graham Griffiths</div>
-    <div class="manager">Manager</div>
-    <img class="homepage-new-child93" alt="" src="./images/group-801@2x.png" />
-
-    <div class="graham-griffiths1">Graham Griffiths</div>
-    <div class="manager1">Manager</div>
-    <div class="monica-bottger">Monica Bottger</div>
-    <div class="designer">Designer</div>
-    <img class="abstract-background-with-grung-icon" alt=""
-      src="./images/abstract-background-with-grunge-brush-stroke-and-black-border-1401-converted01-1@2x.png" />
-
-
-  
-
-   
-
-   
-    <img class="homepage-new-child96" alt="" src="./images/vector-1.svg" />
-
-    <div class="gtco-testimonials">
-        
-        <div class="owl-carousel owl-carousel1 owl-theme">
-          <div>
-            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300" alt="">
-              <div class="card-body">
-                <h5>Ronne Galle <br />
-                  <span> Project Manager </span></h5>
-                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ” </p>
-              </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col">
+                            <div class="testimonial">
+                                <img class="mb-3" src="assets/images/testimonials/user-1.png" alt="">
+                                <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Praesentium, vitae. Neque
+                                    porro veniam similique dolorum voluptas quod temporibus, quos culpa!</p>
+                                <h5 class="text-uppercase">Sophia Barton</h5>
+                                <h6>Google Inc</h6>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="testimonial position-relative">
+                                <img class="mb-3" src="assets/images/testimonials/user-2.png" alt="">
+                                <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Praesentium, vitae. Neque
+                                    porro veniam similique dolorum voluptas quod temporibus, quos culpa!</p>
+                                <h5 class="text-uppercase">Sophia Barton</h5>
+                                <h6>Google Inc</h6>
+                                <img class="bg" src="assets/images/testimonials/bg.png" alt="background">
+                                <img class="quote" src="assets/images/testimonials/quote.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="testimonial">
+                                <img class="mb-3" src="assets/images/testimonials/user-3.png" alt="">
+                                <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Praesentium, vitae. Neque
+                                    porro veniam similique dolorum voluptas quod temporibus, quos culpa!</p>
+                                <h5 class="text-uppercase">Sophia Barton</h5>
+                                <h6>Google Inc</h6>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+            <section class="news py-5 position-relative">
+                <div class="container my-5">
+                    <div class="head text-center mx-auto">
+                        <h6 class="text-uppercase">Our News</h6>
+                        <h2>Latest News</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam culpa asperiores modi iusto
+                            a, ab quis distinctio mollitia rem omnis?</p>
+                        <button class="btn btn-main mx-auto">All News</button>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card-news mb-5">
+                                <div class="thumbnail">
+                                    <img src="assets/images/news/post-1.png" alt="thumbnail">
+                                </div>
+                                <div class="body p-1 mx-1">
+                                    <div class="capsule my-2">Travel</div>
+                                    <h5 class="title">What Traveling Greece For 2 Weeks Taught Me About Life</h5>
+                                    <h6 class="meta-info">Jun 21, 2021 • 11 min read</h6>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                                        mollis lectus vitae nulla malesuada amet purus sed. A condimentum tempus a
+                                        egestas sodales diam cras.</p>
+                                </div>
+                                <div class="footer">
+                                    <div class="author d-flex align-items-center gap-2">
+                                        <img src="assets/images/our-team/person-1.png" alt="author picture"
+                                            class="avatar">
+                                        <h6 class="m-0">Gerogie</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card-news mb-5">
+                                <div class="thumbnail">
+                                    <img src="assets/images/news/post-2.png" alt="thumbnail">
+                                </div>
+                                <div class="body p-1 mx-1">
+                                    <div class="capsule my-2">Food</div>
+                                    <h5 class="title">Why You Should Never Order 12 Chicken Nuggets and Fries</h5>
+                                    <h6 class="meta-info">Jun 21, 2021 • 11 min read</h6>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                                        mollis lectus vitae nulla malesuada amet purus sed. A condimentum tempus a
+                                        egestas sodales diam cras.</p>
+                                </div>
+                                <div class="footer">
+                                    <div class="author d-flex align-items-center gap-2">
+                                        <img src="assets/images/our-team/person-1.png" alt="author picture"
+                                            class="avatar">
+                                        <h6 class="m-0">Gerogie</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="card-news">
+                                <div class="thumbnail">
+                                    <img src="assets/images/news/post-1.png" alt="thumbnail">
+                                </div>
+                                <div class="body p-1 mx-1">
+                                    <div class="capsule my-2">Travel</div>
+                                    <h5 class="title">What Traveling Greece For 2 Weeks Taught Me About Life</h5>
+                                    <h6 class="meta-info">Jun 21, 2021 • 11 min read</h6>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam
+                                        mollis lectus vitae nulla malesuada amet purus sed. A condimentum tempus a
+                                        egestas sodales diam cras.</p>
+                                </div>
+                                <div class="footer">
+                                    <div class="author d-flex align-items-center gap-2">
+                                        <img src="assets/images/our-team/person-1.png" alt="author picture"
+                                            class="avatar">
+                                        <h6 class="m-0">Gerogie</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="shape-1" src="assets/images/news/shape-1.png" alt="background shape">
+                    <img class="shape-2" src="assets/images/news/shape-2.png" alt="round shape">
+                </div>
+            </section>
+            <section class="follow-us py-5">
+                <div class="container p-4 position-relative">
+                    <div class="follow-us-card m-5">
+                        <div class="row flex-column-reverse flex-md-row">
+                            <div class="col-12 col-md-6">
+                                <h3>Follow us for more updates</h3>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
+                                    assumenda
+                                    ullam explicabo, pariatur optio, esse porro placeat possimus voluptates voluptatibus
+                                </p>
+                                <button class="btn btn-main">Contact Us</button>
+                            </div>
+                            <div class="col-12 col-md-6 text-end">
+                                <img class="model" src="assets/images/follow-us/model-1.png" alt="girl smiling">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="mt-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="navbar-brand text-uppercase d-flex align-items-center gap-2 fw-medium">
+                            <img src="./assets/images/logo.png" alt="Logo" width="40" height="40"
+                                class="d-inline-block align-text-top">
+                            <h5>Talent Vision</h5>
+                        </div>
+                        <p>We provide opportunities and resources for candidates who are underrepresented in the
+                            workplace so they can have equitable career options.</p>
+                    </div>
+                    <div class="col">
+                        <h5>Quick Links</h5>
+                        <div class="d-flex">
+                            <ul>
+                                <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+                                <li><a href="#" class="text-dark text-decoration-none">About Us</a></li>
+                                <li><a href="#" class="text-dark text-decoration-none">Services</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#" class="text-dark text-decoration-none">Careers</a></li>
+                                <li><a href="#" class="text-dark text-decoration-none">Resources</a></li>
+                                <li><a href="#" class="text-dark text-decoration-none">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h5>Contact</h5>
+                        <ul>
+                            <li>info@gmail.com/li>
+                            <li>+95 (200) 300 4200</li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h5>Social</h5>
+                        <div class="d-flex gap-1">
+                            <a href="#"><img src="assets/images/twitter.svg" alt="twitter logo"></a>
+                            <a href="#"><img src="assets/images/linkedin.svg" alt="linkedin logo"></a>
+                            <a href="#"><img src="assets/images/facebook.svg" alt="facebook logo"></a>
+                            <a href="#"><img src="assets/images/insta.svg" alt="instagram logo"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div>
-            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301" alt="">
-              <div class="card-body">
-                <h5>Missy Limana<br />
-                  <span> Engineer </span></h5>
-                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ” </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302" alt="">
-              <div class="card-body">
-                <h5>Martha Brown<br />
-                  <span> Project Manager </span></h5>
-                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ” </p>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="card text-center"><img class="card-img-top" src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303" alt="">
-              <div class="card-body">
-                <h5>Hanna Lisem<br />
-                  <span> Project Manager </span></h5>
-                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ” </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    
-
-    <img class="homepage-new-child97" alt="" src="./images/vector-2.svg" />
-
-    
-    
-    <div class="homepage-new-child98"></div>
-    <img class="starstrokewide-icon" alt="" src="./images/starstrokewide.svg" />
-
-    <div class="our">Our</div>
-    <div class="testimonials">Testimonials</div>
-    <img class="starstrokewide-icon1" alt="" src="./images/starstrokewide1.svg" />
-
-    <div class="rectangle-parent1">
-      <div class="group-child4"></div>
-      <div class="group-parent">
-        <img class="group-child5" alt="" src="./images/group-83.svg" />
-
-        <div class="follow-us-for">Follow us for more updates</div>
-        <div class="lorem-ipsum-dolor9">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea
-        </div>
-        <div class="group-child6"></div>
-        <div class="contact-us1">Contact Us</div>
-        <img class="group-child7" src="./images/Group 86.png" alt="">
-      </div>
-      <div class="home1">Home</div>
-      <div class="about-us1">About Us</div>
-      <div class="services1">Services</div>
-      <div class="careers1">Careers</div>
-      <a class="infogmailcom" href="mailto:info@gmail.com" target="_blank">info@gmail.com</a>
-      <div class="resources1">Resources</div>
-      <div class="events1">Events</div>
-      <img class="vector-icon1" alt="" src="./images/vector.svg" />
-
-      <div class="diversefirst1">Talent Vision</div>
-      <img class="group-child10" alt="" src="./images/group-48@2x.svg" />
-
-      <div class="quick-links">Quick Links</div>
-      <div class="contact">Contact</div>
-      <div class="div3">+9(876)543-21-09</div>
-      <div class="social">Social</div>
-      <div class="we-provide-opportunities2">
-        We provide opportunities and resources for candidates who are
-        underrepresented in the workplace so they can have equitable career
-        options.
-      </div>
-      <img class="vector-icon2" alt="" src="./images/vector1.svg" />
-
-      <img class="vector-icon3" alt="" src="./images/vector2.svg" />
-
-      <img class="vector-icon4" alt="" src="./images/vector3.svg" />
-
-      <img class="vector-icon5" alt="" src="./images/vector4.svg" />
-
-      <div class="copyright-2022">Copyright © 2023 Talent Vision</div>
-    </div>
-    <div class="blog-post-4">
-      <img class="image-1-icon" alt="" src="./images/image-1@2x.png" />
-
-      <div class="author">
-        <b class="george-costanza">George Costanza</b>
-        <img class="image-4-icon" alt="" src="./images/image-4@2x.png" />
-      </div>
-      <div class="blog-post-4-child"></div>
-      <div class="travel">Travel</div>
-      <div class="jun-21-2021">Jun 21, 2021 • 11 min read</div>
-      <div class="what-traveling-greece">
-        What Traveling Greece For 2 Weeks Taught Me About Life
-      </div>
-      <div class="lorem-ipsum-dolor10">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam mollis
-        lectus vitae nulla malesuada amet purus sed. A condimentum tempus a
-        egestas sodales diam cras.
-      </div>
-    </div>
-    <div class="blog-post-5">
-      <img class="image-2-icon" alt="" src="./images/image-2@2x.png" />
-
-      <div class="author">
-        <b class="george-costanza">George Costanza</b>
-        <img class="image-4-icon" alt="" src="./images/image-4@2x.png" />
-      </div>
-      <div class="blog-post-5-child"></div>
-      <div class="food">Food</div>
-      <div class="jun-21-2021">Jun 21, 2021 • 11 min read</div>
-      <div class="what-traveling-greece">
-        Why You Should Never Order 12 Chicken Nuggets and Fries
-      </div>
-      <div class="lorem-ipsum-dolor10">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam mollis
-        lectus vitae nulla malesuada amet purus sed. A condimentum tempus a
-        egestas sodales diam cras.
-      </div>
-    </div>
-    <div class="blog-post-6">
-      <img class="blog-post-6-child" alt="" src="./images/rectangle-33@2x.png" />
-
-      <div class="author">
-        <b class="george-costanza">George Costanza</b>
-        <img class="image-4-icon" alt="" src="./images/image-4@2x.png" />
-      </div>
-      <div class="blog-post-4-child"></div>
-      <div class="history">History</div>
-      <div class="jun-21-2021">Jun 21, 2021 • 11 min read</div>
-      <div class="what-traveling-greece">
-        What Traveling Greece For 2 Weeks Taught Me About Life
-      </div>
-      <div class="lorem-ipsum-dolor10">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam mollis
-        lectus vitae nulla malesuada amet purus sed. A condimentum tempus a
-        egestas sodales diam cras.
-      </div>
-    </div>
-    <div class="lorem-ipsum-dolor13">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim
-    </div>
-    <div class="homepage-new-child99"></div>
-    <div class="all-news">All News</div>
-    <img class="arrow-01-icon" alt="" src="./images/arrow-01.svg" />
-
-    <div class="homepage-new-child100"></div>
-    <img class="happy-joyful-corporate-coach-h-icon" alt=""
-      src="./images/happyjoyfulcorporatecoachholdingpen-1@2x.png" />
-
-    <img class="homepage-new-child101" alt="" src="./images/group-99@2x.png" />
-
-    <img class="untitled-design-2022-09-22t1" alt="" src="./images/untitled-design--20220922t154545-1@2x.png" />
-
-    <img class="homepage-new-child102" alt="" src="./images/group-102.svg" />
-  </div>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script>
-
-</body>
+            <p class="text-center">Copyright &copy; 2022, DiverseFirst</p>
+        </footer>
+    </body>
 
 </html>
