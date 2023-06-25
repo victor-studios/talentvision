@@ -625,23 +625,51 @@ h2 {
 	color: #979797;
 	font-size: 12px;
 }
-.testimonial .bg {
-	position: fixed;
-	z-index: -1;
-	width: 25rem;
-	left: -5%;
-	top: -20%;
-	height: 25rem;
-}
-.testimonial .quote {
-	position: fixed;
-	top: 0;
-	right: 3rem;
-	width: 50px;
-	height: 50px;
-}
 .owl-pagination {
 	padding-top: 3rem !important;
+}
+.overlay .bg,
+.overlay .quote {
+	position: absolute;
+	top: 0;
+}
+.overlay .quote {
+	right: 15%;
+}
+.overlay .bg {
+	left: 0;
+	right: 0;
+	z-index: -1;
+	height: 20rem;
+	margin: 0 auto;
+}
+.owl-theme .owl-pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.owl-theme .owl-controls .owl-page span {
+	width: 8px;
+	height: 8px;
+	margin: 5px 4px;
+	transition: 200ms;
+}
+.owl-theme .owl-controls .owl-page.active span {
+	width: 10px;
+	height: 10px;
+	background-color: #37324d;
+}
+@media (min-width: 768px) {
+	.overlay .quote {
+		right: 34%;
+	}
+	.overlay .bg {
+		left: 0;
+		right: 0;
+		z-index: -1;
+		height: 24rem;
+		margin: 0 auto;
+	}
 }
 
 /* news */
